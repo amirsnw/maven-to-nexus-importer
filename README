@@ -1,0 +1,12 @@
+#Automated importing Maven Local Repository Into Nexus
+
+* Add remote repo credential to maven setting.xml:
+    <server>
+      <id>internal</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+
+- Requirements:
+Nexus-3.49.0-02
+Apache Maven 3.6.3
